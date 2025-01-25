@@ -1,0 +1,147 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+}
+
+p {
+  font-family: monospace;
+  color: #fff;
+  float: bottom;
+}
+
+.container {
+  float: center;
+  position: relative;
+}
+
+.logo {
+  position: relative;
+  padding: 10px;
+  padding: 10px 0;  
+  width: 500px;
+}
+
+.btn {
+  position: relative;
+  color: white;
+  font-size: 3rem;
+  background-color: #111;
+  padding: 10px;
+  padding: 10px 0;
+  width: 90%;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn:focus {
+  color: #30387A;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  padding: 10px 0;
+  font-family: monospace;
+  font-weight: 550;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.slider-container #value1, #value2, #value3, #value4  {
+  position: absolute;
+  right: 10px;
+}
+
+#city-slider, #ocean-slider, #wind-slider, #traffic-slider {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 4px;
+  width: 100%;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 0 1px #30387A;
+}
+
+/* city slider */
+
+#city-slider::-webkit-slider-thumb {
+  appearance: none;
+  background: #30387A;
+  height: 20px;
+  width: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 2px #4a4a4a;
+}
+
+#city-slider::-webkit-slider-thumb:active {
+  scale: 1.02;
+}
+
+/* ocean slider */
+
+#ocean-slider::-webkit-slider-thumb {
+  appearance: none;
+  background: #30387A;
+  height: 20px;
+  width: 4px;
+
+  cursor: pointer;
+  box-shadow: 0 0 2px #4a4a4a;
+}
+
+#ocean-slider::-webkit-slider-thumb:active {
+  scale: 1.02;
+}
+
+/* wind slider */
+
+#wind-slider::-webkit-slider-thumb {
+  appearance: none;
+  background: #30387A;
+  height: 20px;
+  width: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 2px #4a4a4a;
+}
+
+#wind-slider::-webkit-slider-thumb:active {
+  scale: 1.02;
+}
+
+/* traffic slider */
+
+#traffic-slider::-webkit-slider-thumb {
+  appearance: none;
+  background: #30387A;
+  height: 20px;
+  width: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 2px #4a4a4a;
+}
+
+#traffic-slider::-webkit-slider-thumb:active {
+  scale: 1.02;
+}
+
+.list-unstyled {
+  float: top;
+}

@@ -48,7 +48,7 @@ p {
 }
 
 .btn:focus {
-  color: #30387A;
+  color: #FF5252;
 }
 
 .invisible {
@@ -78,14 +78,14 @@ p {
   width: 100%;
   outline: none;
   border-radius: 10px;
-  box-shadow: 0 0 1px #30387A;
+  box-shadow: 0 0 1px #FF5252;
 }
 
 /* city slider */
 
 #city-slider::-webkit-slider-thumb {
   appearance: none;
-  background: #30387A;
+  background: #FF5252;
   height: 20px;
   width: 4px;
   cursor: pointer;
@@ -100,7 +100,7 @@ p {
 
 #ocean-slider::-webkit-slider-thumb {
   appearance: none;
-  background: #30387A;
+  background: #FF5252;
   height: 20px;
   width: 4px;
 
@@ -116,7 +116,7 @@ p {
 
 #wind-slider::-webkit-slider-thumb {
   appearance: none;
-  background: #30387A;
+  background: #FF5252;
   height: 20px;
   width: 4px;
   cursor: pointer;
@@ -131,7 +131,7 @@ p {
 
 #traffic-slider::-webkit-slider-thumb {
   appearance: none;
-  background: #30387A;
+  background: #FF5252;
   height: 20px;
   width: 4px;
   cursor: pointer;

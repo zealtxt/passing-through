@@ -14,7 +14,7 @@ window.onload = function () {
 
 // default range background color
 const rangBgColor = {
-    bgColorA: "#30387A",
+    bgColorA: "#FF5252",
     bgColorB: "#e7e7e7"
 };
 
